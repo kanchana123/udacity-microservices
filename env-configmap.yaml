@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  AWS_BUCKET: kanchan-440660457298-dev
+  AWS_REGION: us-east-2c
+  AWS_PROFIL: default
+  JWT_SECRET: hello
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: mydb.c6xh95vh1lpw.us-east-2.rds.amazonaws.com
+  URL: http://af65de00b65a04172be84d545c3373cc-2117945580.us-east-2.elb.amazonaws.com:8100
