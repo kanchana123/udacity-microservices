@@ -19,4 +19,9 @@ spec:
         image: kanchannannavare/udagram-frontend:v2
         ports:
         - containerPort: 8100
+        resources:
+          limits:
+            cpu: 500m
+          requests:
+            cpu: 200m
 
